@@ -63,6 +63,8 @@ public class GameManager : MonoBehaviour
         textoBienvenida.SetActive(false);
         imagenEvidencia.gameObject.SetActive(true);
         OcultarBotones();
+        textoExpediente.SetActive(false);
+
 
         vioCamaras = true;
 
@@ -81,6 +83,7 @@ public class GameManager : MonoBehaviour
         textoInformacion.gameObject.SetActive(true);
         imagenEvidencia.gameObject.SetActive(true);
         OcultarBotones();
+        textoExpediente.SetActive(false);
 
         vioHuellas = true;
         textoInformacion.text =
@@ -98,6 +101,7 @@ public class GameManager : MonoBehaviour
         textoInformacion.gameObject.SetActive(true);
         imagenEvidencia.gameObject.SetActive(true);
         OcultarBotones();
+        textoExpediente.SetActive(false);
 
         vioMensajes = true;
         textoInformacion.text =
@@ -115,6 +119,7 @@ public class GameManager : MonoBehaviour
         textoInformacion.gameObject.SetActive(true);
         imagenEvidencia.gameObject.SetActive(true);
         OcultarBotones();
+        textoExpediente.SetActive(false);
 
         vioBanco = true;
         textoInformacion.text =
@@ -132,6 +137,7 @@ public class GameManager : MonoBehaviour
         textoInformacion.gameObject.SetActive(true);
         imagenEvidencia.gameObject.SetActive(true);
         OcultarBotones();
+        textoExpediente.SetActive(false);
 
         vioLlamadas = true;
         textoInformacion.text =
