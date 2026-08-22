@@ -1,6 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement; // Necesario para cambiar de escena
 
 public class GameManager : MonoBehaviour
 {
@@ -28,6 +29,10 @@ public class GameManager : MonoBehaviour
     public Sprite imagenBanco;
     public Sprite imagenLlamadas;
 
+    [Header("Escenas de Final")]
+    [SerializeField] private string nombreEscenaFinalBueno = "FinalBueno";
+    [SerializeField] private string nombreEscenaFinalMalo = "FinalMalo";
+
     private bool vioCamaras = false;
     private bool vioHuellas = false;
     private bool vioMensajes = false;
@@ -37,24 +42,17 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         ActualizarProgreso();
-
         textoBienvenida.SetActive(true);
-
         textoInformacion.gameObject.SetActive(false);
-
         textoAcusar.SetActive(false);
-
         textoFinal.SetActive(false);
-
         imagenEvidencia.gameObject.SetActive(false);
-
         textoExpediente.SetActive(false);
     }
 
     public void IniciarInvestigacion()
     {
         panelInicio.SetActive(false);
-
         panelPrincipal.SetActive(true);
     }
 
@@ -65,14 +63,12 @@ public class GameManager : MonoBehaviour
         OcultarBotones();
         textoExpediente.SetActive(false);
 
-
         vioCamaras = true;
-
         textoInformacion.text =
-            "Archivo abierto:\r\n\r\nCamara_Exterior_01.mp4\r\n\r\n--------------------------------------\r\n\r\nHora: 21:15\r\n\r\nDescripción:\r\n\r\nLa cámara registra a una persona con chaqueta negra entrando al banco.\r\n\r\nEl sospechoso cojea ligeramente de la pierna izquierda.\r\n\r\nEl rostro no puede identificarse.";
+            "Archivo abierto:\r\n\r\nCamara_Exterior_01.mp4\r\n\r\n--------------------------------------\r\n\r\nHora: 21:15\r\n\r\nDescripciÃ³n:\r\n\r\nLa cÃ¡mara registra a una persona con chaqueta negra entrando al banco.\r\n\r\nEl sospechoso cojea ligeramente de la pierna izquierda.\r\n\r\nEl rostro no puede identificarse.";
         ActualizarProgreso();
 
-        AgregarNota("El sospechoso tenía una leve cojera y vestía una chaqueta negra.");
+        AgregarNota("El sospechoso tenÃ­a una leve cojera y vestÃ­a una chaqueta negra.");
         textoInformacion.gameObject.SetActive(true);
         imagenEvidencia.sprite = imagenCamaras;
     }
@@ -87,11 +83,10 @@ public class GameManager : MonoBehaviour
 
         vioHuellas = true;
         textoInformacion.text =
-            "Archivo abierto:\r\n\r\nInforme_Huellas.pdf\r\n\r\n--------------------------------------\r\n\r\nResultado:\r\n\r\nLas huellas encontradas pertenecen a un ex empleado del banco.\r\n\r\nSegún el registro de personal, únicamente Carlos Pérez trabajó anteriormente en la entidad.";
+            "Archivo abierto:\r\n\r\nInforme_Huellas.pdf\r\n\r\n--------------------------------------\r\n\r\nResultado:\r\n\r\nLas huellas encontradas pertenecen a un ex empleado del banco.\r\n\r\nSegÃºn el registro de personal, Ãºnicamente Carlos PÃ©rez trabajÃ³ anteriormente en la entidad.";
         ActualizarProgreso();
 
         AgregarNota("Las huellas pertenecen a un ex empleado del banco.");
-
         imagenEvidencia.sprite = imagenHuellas;
     }
 
@@ -105,11 +100,10 @@ public class GameManager : MonoBehaviour
 
         vioMensajes = true;
         textoInformacion.text =
-            "Archivo abierto:\r\n\r\nChat_Recuperado.txt\r\n\r\n--------------------------------------\r\n\r\n21:03\r\n\r\n— No olvides llevar la chaqueta negra y la llave.\r\n\r\n21:05\r\n\r\n— Tranquilo, todavía conservo la llave que nunca devolví.\r\n\r\nEl nombre del remitente fue eliminado.";
+            "Archivo abierto:\r\n\r\nChat_Recuperado.txt\r\n\r\n--------------------------------------\r\n\r\n21:03\r\n\r\n- No olvides llevar la chaqueta negra y la llave.\r\n\r\n21:05\r\n\r\n- Tranquilo, todavÃ­a conservo la llave que nunca devolvÃ­.\r\n\r\nEl nombre del remitente fue eliminado.";
         ActualizarProgreso();
 
-        AgregarNota("Uno de los involucrados aún conservaba una llave del banco.");
-
+        AgregarNota("Uno de los involucrados aÃºn conservaba una llave del banco.");
         imagenEvidencia.sprite = imagenMensajes;
     }
 
@@ -123,11 +117,10 @@ public class GameManager : MonoBehaviour
 
         vioBanco = true;
         textoInformacion.text =
-            "Archivo abierto:\r\n\r\nMovimientos_Bancarios.xlsx\r\n\r\n--------------------------------------\r\n\r\nTransferencia:\r\n\r\nDestino:\r\n\r\nAndrés Ruiz\r\n\r\nValor:\r\n\r\n$5.000.000\r\n\r\nObservación:\r\n\r\nPago recibido menos de 24 horas después del robo.";
+            "Archivo abierto:\r\n\r\nMovimientos_Bancarios.xlsx\r\n\r\n--------------------------------------\r\n\r\nTransferencia:\r\n\r\nDestino:\r\n\r\nAndrÃ©s Ruiz\r\n\r\nValor:\r\n\r\n$5.000.000\r\n\r\nObservaciÃ³n:\r\n\r\nPago recibido menos de 24 horas despuÃ©s del robo.";
         ActualizarProgreso();
 
-        AgregarNota("Andrés recibió dinero después del robo.");
-
+        AgregarNota("AndrÃ©s recibiÃ³ dinero despuÃ©s del robo.");
         imagenEvidencia.sprite = imagenBanco;
     }
 
@@ -141,11 +134,10 @@ public class GameManager : MonoBehaviour
 
         vioLlamadas = true;
         textoInformacion.text =
-            "Archivo abierto:\r\n\r\nRegistro_Llamadas.csv\r\n\r\n--------------------------------------\r\n\r\n21:11\r\n\r\nLlamada entre Carlos Pérez y Andrés Ruiz.\r\n\r\nDuración:\r\n\r\n03:12 minutos.\r\n\r\nNo fue posible recuperar el contenido.";
+            "Archivo abierto:\r\n\r\nRegistro_Llamadas.csv\r\n\r\n--------------------------------------\r\n\r\n21:11\r\n\r\nLlamada entre Carlos PÃ©rez y AndrÃ©s Ruiz.\r\n\r\nDuraciÃ³n:\r\n\r\n03:12 minutos.\r\n\r\nNo fue posible recuperar el contenido.";
         ActualizarProgreso();
 
-        AgregarNota("Carlos habló con Andrés minutos antes del robo.");
-
+        AgregarNota("Carlos hablÃ³ con AndrÃ©s minutos antes del robo.");
         imagenEvidencia.sprite = imagenLlamadas;
     }
 
@@ -155,7 +147,6 @@ public class GameManager : MonoBehaviour
         {
             OcultarPantallas();
             textoAcusar.SetActive(true);
-
             botonCarlos.SetActive(true);
             botonLaura.SetActive(true);
             botonAndres.SetActive(true);
@@ -164,47 +155,30 @@ public class GameManager : MonoBehaviour
         {
             textoInformacion.text =
                 "Debes revisar todas las evidencias.\n\n" +
-                "Cámaras: " + (vioCamaras ? "realizado" : "pendiente") + "\n" +
+                "CÃ¡maras: " + (vioCamaras ? "realizado" : "pendiente") + "\n" +
                 "Huellas: " + (vioHuellas ? "realizado" : "pendiente") + "\n" +
                 "Mensajes: " + (vioMensajes ? "realizado" : "pendiente") + "\n" +
                 "Banco: " + (vioBanco ? "realizado" : "pendiente") + "\n" +
                 "Llamadas: " + (vioLlamadas ? "realizado" : "pendiente");
         }
     }
+
+    // FINAL BUENO: Acusas a Carlos (el verdadero culpable)
     public void ElegirCarlos()
     {
-        OcultarPantallas();
-        OcultarBotones();
-
-        textoFinal.SetActive(true);
-
-        contenidoTextoFinal.text =
-                        "¡CASO RESUELTO!\r\n\r\nLas cámaras muestran a una persona con chaqueta negra.\r\n\r\nLos mensajes hacen referencia a esa misma chaqueta y a una reunión cerca del banco.\r\n\r\nEl registro de llamadas confirma comunicación entre los involucrados antes del robo.\r\n\r\nLas huellas en la bóveda demuestran que Carlos estuvo en contacto con la escena del crimen.\r\n\r\nLa evidencia reunida permite concluir que Carlos es el responsable del robo.";
-
+        SceneManager.LoadScene(nombreEscenaFinalBueno);
     }
 
+    // FINAL MALO: Acusas a Laura
     public void ElegirLaura()
     {
-        OcultarPantallas();
-        OcultarBotones();
-
-        textoFinal.SetActive(true);
-
-        contenidoTextoFinal.text =
-                        "CASO FALLIDO\r\n\r\nLaura aparece en los mensajes, pero no existe ninguna evidencia que la ubique dentro del banco.\r\n\r\nLas huellas y el video no permiten relacionarla directamente con el robo.\r\n\r\nNo hay pruebas suficientes para considerarla culpable.";
-
+        SceneManager.LoadScene(nombreEscenaFinalMalo);
     }
 
+    // FINAL MALO: Acusas a AndrÃ©s
     public void ElegirAndres()
     {
-        OcultarPantallas();
-        OcultarBotones();
-
-        textoFinal.SetActive(true);
-
-        contenidoTextoFinal.text =
-                        "CASO FALLIDO\r\n\r\nAunque Andrés recibió dinero después del robo, ninguna evidencia demuestra que haya ingresado al banco.\r\n\r\nEl movimiento bancario por sí solo no es suficiente para probar su participación.\r\n\r\nLa investigación debe continuar.";
-
+        SceneManager.LoadScene(nombreEscenaFinalMalo);
     }
 
     void OcultarBotones()
@@ -212,13 +186,12 @@ public class GameManager : MonoBehaviour
         botonCarlos.SetActive(false);
         botonLaura.SetActive(false);
         botonAndres.SetActive(false);
-
         textoAcusar.SetActive(false);
     }
+
     void ActualizarProgreso()
     {
         int evidencias = 0;
-
         if (vioCamaras) evidencias++;
         if (vioHuellas) evidencias++;
         if (vioMensajes) evidencias++;
@@ -232,7 +205,7 @@ public class GameManager : MonoBehaviour
     {
         if (!notas.Contains(nota))
         {
-            notas += "• " + nota + "\n\n";
+            notas += "- " + nota + "\n\n";
             textoNotas.text = notas;
         }
     }
@@ -240,21 +213,17 @@ public class GameManager : MonoBehaviour
     void OcultarPantallas()
     {
         textoBienvenida.SetActive(false);
-
         textoInformacion.gameObject.SetActive(false);
-
         textoAcusar.SetActive(false);
-
         textoFinal.SetActive(false);
-
         imagenEvidencia.gameObject.SetActive(false);
         textoExpediente.SetActive(false);
     }
+
     public void MostrarExpediente()
     {
         OcultarPantallas();
         OcultarBotones();
-
         textoExpediente.SetActive(true);
 
         contenidoTextoExpediente.text =
@@ -262,25 +231,19 @@ public class GameManager : MonoBehaviour
         "Expediente_Sospechosos.pdf\n" +
         "--------------------------------------\n" +
         "EXPEDIENTE DE SOSPECHOSOS\n" +
-
-        "Carlos Pérez\n" +
-        "• Ex empleado del banco.\n" +
-        "• Renunció hace 6 meses.\n" +
-        "• Conservaba una copia de la llave maestra del banco.\n" +
-
+        "Carlos PÃ©rez\n" +
+        "- Ex empleado del banco.\n" +
+        "- RenunciÃ³ hace 6 meses.\n" +
+        "- Conservaba una copia de la llave maestra del banco.\n" +
         "--------------------------------------\n" +
-
-        "Laura Gómez\n" +
-        "• Cliente frecuente.\n" +
-        "• Visitó el banco la mañana del robo.\n" +
-        "• No posee antecedentes penales.\n" +
-
+        "Laura GÃ³mez\n" +
+        "- Cliente frecuente.\n" +
+        "- VisitÃ³ el banco la maÃ±ana del robo.\n" +
+        "- No posee antecedentes penales.\n" +
         "--------------------------------------\n" +
-
-        "Andrés Ruiz\n" +
-        "• Técnico de seguridad.\n" +
-        "• Responsable del mantenimiento de las cámaras.\n" +
-        "• Tenía acceso al sistema de vigilancia.";
+        "AndrÃ©s Ruiz\n" +
+        "- TÃ©cnico de seguridad.\n" +
+        "- Responsable del mantenimiento de las cÃ¡maras.\n" +
+        "- TenÃ­a acceso al sistema de vigilancia.";
     }
 }
-

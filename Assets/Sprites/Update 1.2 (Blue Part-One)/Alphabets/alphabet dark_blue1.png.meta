@@ -1,0 +1,1547 @@
+fileFormatVersion: 2
+guid: 236ea0f4793e73e478a1ceeea2718270
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4978714594521708939
+    second: alphabet dark_blue1_0
+  - first:
+      213: -6042721380101259863
+    second: alphabet dark_blue1_1
+  - first:
+      213: 8901309858366300355
+    second: alphabet dark_blue1_2
+  - first:
+      213: 3925663274775132114
+    second: alphabet dark_blue1_3
+  - first:
+      213: -8439817546068024447
+    second: alphabet dark_blue1_4
+  - first:
+      213: 960188151976291102
+    second: alphabet dark_blue1_5
+  - first:
+      213: 3031519476449924764
+    second: alphabet dark_blue1_6
+  - first:
+      213: -5432410013545868707
+    second: alphabet dark_blue1_7
+  - first:
+      213: -4119664887821093805
+    second: alphabet dark_blue1_8
+  - first:
+      213: -117238841783965168
+    second: alphabet dark_blue1_9
+  - first:
+      213: -5336571528414474924
+    second: alphabet dark_blue1_10
+  - first:
+      213: 2461206163576041270
+    second: alphabet dark_blue1_11
+  - first:
+      213: -6201565413710633178
+    second: alphabet dark_blue1_12
+  - first:
+      213: 4450978755907903250
+    second: alphabet dark_blue1_13
+  - first:
+      213: 3258709210596753857
+    second: alphabet dark_blue1_14
+  - first:
+      213: 477687687851326618
+    second: alphabet dark_blue1_15
+  - first:
+      213: -408780376060841221
+    second: alphabet dark_blue1_16
+  - first:
+      213: -7746757552414090996
+    second: alphabet dark_blue1_17
+  - first:
+      213: 1643192661857033887
+    second: alphabet dark_blue1_18
+  - first:
+      213: -3514052162834978184
+    second: alphabet dark_blue1_19
+  - first:
+      213: 4282613572576685845
+    second: alphabet dark_blue1_20
+  - first:
+      213: 7113329886905933949
+    second: alphabet dark_blue1_21
+  - first:
+      213: 3234497970565618020
+    second: alphabet dark_blue1_22
+  - first:
+      213: 2250115283556269089
+    second: alphabet dark_blue1_23
+  - first:
+      213: 2238194178350786705
+    second: alphabet dark_blue1_24
+  - first:
+      213: -7798306912059292035
+    second: alphabet dark_blue1_25
+  - first:
+      213: 8941579101759345563
+    second: alphabet dark_blue1_26
+  - first:
+      213: 7400918303081380797
+    second: alphabet dark_blue1_27
+  - first:
+      213: -7675722556418316670
+    second: alphabet dark_blue1_28
+  - first:
+      213: -1586877091665128883
+    second: alphabet dark_blue1_29
+  - first:
+      213: -1278700875715609959
+    second: alphabet dark_blue1_30
+  - first:
+      213: 8778164064155539927
+    second: alphabet dark_blue1_31
+  - first:
+      213: -9218518195364970870
+    second: alphabet dark_blue1_32
+  - first:
+      213: 7231543638309474738
+    second: alphabet dark_blue1_33
+  - first:
+      213: -6825940639048437702
+    second: alphabet dark_blue1_34
+  - first:
+      213: 7661516966457982787
+    second: alphabet dark_blue1_35
+  - first:
+      213: -9040652521297825185
+    second: alphabet dark_blue1_36
+  - first:
+      213: -6581582505326963464
+    second: alphabet dark_blue1_37
+  - first:
+      213: 6321538663913120123
+    second: alphabet dark_blue1_38
+  - first:
+      213: -1693799712780252400
+    second: alphabet dark_blue1_39
+  - first:
+      213: 1313321847642192019
+    second: alphabet dark_blue1_40
+  - first:
+      213: 2009994399072975823
+    second: alphabet dark_blue1_41
+  - first:
+      213: 1349960969226387786
+    second: alphabet dark_blue1_42
+  - first:
+      213: 2345395839160792108
+    second: alphabet dark_blue1_43
+  - first:
+      213: 2819664699746957717
+    second: alphabet dark_blue1_44
+  - first:
+      213: 8194648273111995990
+    second: alphabet dark_blue1_45
+  - first:
+      213: 4608532449706978215
+    second: alphabet dark_blue1_46
+  - first:
+      213: 7132179448632435452
+    second: alphabet dark_blue1_47
+  - first:
+      213: 6616713941580466195
+    second: alphabet dark_blue1_48
+  - first:
+      213: 8214321591196155849
+    second: alphabet dark_blue1_49
+  - first:
+      213: 7827091319280179719
+    second: alphabet dark_blue1_50
+  - first:
+      213: -1260568468267342099
+    second: alphabet dark_blue1_51
+  - first:
+      213: -4077802002835206598
+    second: alphabet dark_blue1_52
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: alphabet dark_blue1_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 39
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b89f48c9b82f71540800000000000000
+      internalID: 4978714594521708939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_1
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 39
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9adf766abe0f32ca0800000000000000
+      internalID: -6042721380101259863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_2
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 39
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c02b9fa72ec78b70800000000000000
+      internalID: 8901309858366300355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_3
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7b4c803f1ca7630800000000000000
+      internalID: 3925663274775132114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_4
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 39
+        width: 107
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183a18d68aebfda80800000000000000
+      internalID: -8439817546068024447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_5
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 39
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1be5147906435d00800000000000000
+      internalID: 960188151976291102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c96d973f6ee121a20800000000000000
+      internalID: 3031519476449924764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_7
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 47
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d52d254ffd33c94b0800000000000000
+      internalID: -5432410013545868707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_8
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 39
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35436c78c9204d6c0800000000000000
+      internalID: -4119664887821093805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_9
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 39
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01aa69105eb7f5ef0800000000000000
+      internalID: -117238841783965168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 13
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d44622870b0f5b0800000000000000
+      internalID: -5336571528414474924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_11
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 14
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fa3fa37f5f72220800000000000000
+      internalID: 2461206163576041270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_12
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 627ed601d1d9fe9a0800000000000000
+      internalID: -6201565413710633178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_13
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 5
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f53b0a89d05cd30800000000000000
+      internalID: 4450978755907903250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_14
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 14
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c1c9ebf2c2493d20800000000000000
+      internalID: 3258709210596753857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_15
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 14
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9cb4f3db6611a600800000000000000
+      internalID: 477687687851326618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_16
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 5
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf23ebde968b35af0800000000000000
+      internalID: -408780376060841221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_17
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 5
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c099847dc0dfd7490800000000000000
+      internalID: -7746757552414090996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_18
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 14
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e548b150bcdc610800000000000000
+      internalID: 1643192661857033887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_19
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a27081d249b3fc0800000000000000
+      internalID: -3514052162834978184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_20
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 5
+        width: 6
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51f23bf9a56ee6b30800000000000000
+      internalID: 4282613572576685845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_21
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d70a23718df97b260800000000000000
+      internalID: 7113329886905933949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_22
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 5
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469194264ce33ec20800000000000000
+      internalID: 3234497970565618020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_23
+      rect:
+        serializedVersion: 2
+        x: 121
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c7c04cde30a3f10800000000000000
+      internalID: 2250115283556269089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_24
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19822fa2fb9af0f10800000000000000
+      internalID: 2238194178350786705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_25
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 4
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d768b314e29d6c390800000000000000
+      internalID: -7798306912059292035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_26
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 5
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b931c6b81ded61c70800000000000000
+      internalID: 8941579101759345563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_27
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb3ad22cf755b660800000000000000
+      internalID: 7400918303081380797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_28
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 286ab3ea00b5a7590800000000000000
+      internalID: -7675722556418316670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_29
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42581951b74af9e0800000000000000
+      internalID: -1586877091665128883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_30
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 14
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99a7df01454214ee0800000000000000
+      internalID: -1278700875715609959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_31
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d9171825bd42d970800000000000000
+      internalID: 8778164064155539927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_32
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 14
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ebbc90b8e311080800000000000000
+      internalID: -9218518195364970870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_33
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b11c2bef9a9b5460800000000000000
+      internalID: 7231543638309474738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_34
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 14
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a307d9777236541a0800000000000000
+      internalID: -6825940639048437702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_35
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 14
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34f3b5aa61d235a60800000000000000
+      internalID: 7661516966457982787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f52bd4a6e66298280800000000000000
+      internalID: -9040652521297825185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_37
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f49f06059589a4a0800000000000000
+      internalID: -6581582505326963464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_38
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7160700ced9ab750800000000000000
+      internalID: 6321538663913120123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_39
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 4
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b0317a22a6e78e0800000000000000
+      internalID: -1693799712780252400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_40
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 398f87c134bd93210800000000000000
+      internalID: 1313321847642192019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_41
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 4
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcbf44da14fe4eb10800000000000000
+      internalID: 2009994399072975823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_42
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41816f59560cb210800000000000000
+      internalID: 1349960969226387786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_43
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 5
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c24bbdad6158c8020800000000000000
+      internalID: 2345395839160792108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_44
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 4
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 599302eea16712720800000000000000
+      internalID: 2819664699746957717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_45
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 5
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 656db12ff2d39b170800000000000000
+      internalID: 8194648273111995990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_46
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab25a098dbc4ff30800000000000000
+      internalID: 4608532449706978215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_47
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 5
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf2e31eab679af260800000000000000
+      internalID: 7132179448632435452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_48
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3184744e54a43db50800000000000000
+      internalID: 6616713941580466195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_49
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cf711247f12ff170800000000000000
+      internalID: 8214321591196155849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_50
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 5
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70a1d3ec51a6f9c60800000000000000
+      internalID: 7827091319280179719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_51
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 5
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de6edd928af818ee0800000000000000
+      internalID: -1260568468267342099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alphabet dark_blue1_52
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 5
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e81acfeacb867c0800000000000000
+      internalID: -4077802002835206598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      alphabet dark_blue1_0: 4978714594521708939
+      alphabet dark_blue1_1: -6042721380101259863
+      alphabet dark_blue1_10: -5336571528414474924
+      alphabet dark_blue1_11: 2461206163576041270
+      alphabet dark_blue1_12: -6201565413710633178
+      alphabet dark_blue1_13: 4450978755907903250
+      alphabet dark_blue1_14: 3258709210596753857
+      alphabet dark_blue1_15: 477687687851326618
+      alphabet dark_blue1_16: -408780376060841221
+      alphabet dark_blue1_17: -7746757552414090996
+      alphabet dark_blue1_18: 1643192661857033887
+      alphabet dark_blue1_19: -3514052162834978184
+      alphabet dark_blue1_2: 8901309858366300355
+      alphabet dark_blue1_20: 4282613572576685845
+      alphabet dark_blue1_21: 7113329886905933949
+      alphabet dark_blue1_22: 3234497970565618020
+      alphabet dark_blue1_23: 2250115283556269089
+      alphabet dark_blue1_24: 2238194178350786705
+      alphabet dark_blue1_25: -7798306912059292035
+      alphabet dark_blue1_26: 8941579101759345563
+      alphabet dark_blue1_27: 7400918303081380797
+      alphabet dark_blue1_28: -7675722556418316670
+      alphabet dark_blue1_29: -1586877091665128883
+      alphabet dark_blue1_3: 3925663274775132114
+      alphabet dark_blue1_30: -1278700875715609959
+      alphabet dark_blue1_31: 8778164064155539927
+      alphabet dark_blue1_32: -9218518195364970870
+      alphabet dark_blue1_33: 7231543638309474738
+      alphabet dark_blue1_34: -6825940639048437702
+      alphabet dark_blue1_35: 7661516966457982787
+      alphabet dark_blue1_36: -9040652521297825185
+      alphabet dark_blue1_37: -6581582505326963464
+      alphabet dark_blue1_38: 6321538663913120123
+      alphabet dark_blue1_39: -1693799712780252400
+      alphabet dark_blue1_4: -8439817546068024447
+      alphabet dark_blue1_40: 1313321847642192019
+      alphabet dark_blue1_41: 2009994399072975823
+      alphabet dark_blue1_42: 1349960969226387786
+      alphabet dark_blue1_43: 2345395839160792108
+      alphabet dark_blue1_44: 2819664699746957717
+      alphabet dark_blue1_45: 8194648273111995990
+      alphabet dark_blue1_46: 4608532449706978215
+      alphabet dark_blue1_47: 7132179448632435452
+      alphabet dark_blue1_48: 6616713941580466195
+      alphabet dark_blue1_49: 8214321591196155849
+      alphabet dark_blue1_5: 960188151976291102
+      alphabet dark_blue1_50: 7827091319280179719
+      alphabet dark_blue1_51: -1260568468267342099
+      alphabet dark_blue1_52: -4077802002835206598
+      alphabet dark_blue1_6: 3031519476449924764
+      alphabet dark_blue1_7: -5432410013545868707
+      alphabet dark_blue1_8: -4119664887821093805
+      alphabet dark_blue1_9: -117238841783965168
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
