@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: b56dcd448a52092458b35309b0c1fcfc
+guid: 09093e8cc03f06f4a908ae926a503bc4
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6097014349933998067
-    second: Button Blue preset-Sheet_0
-  - first:
-      213: 8585459497676165392
-    second: Button Blue preset-Sheet_1
+      213: 4946870255777695045
+    second: expediente_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -155,13 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Button Blue preset-Sheet_0
+      name: expediente_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 39
-        height: 15
+        x: 27
+        y: 10
+        width: 314
+        height: 262
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,30 +167,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ff66467f32fc9450800000000000000
-      internalID: 6097014349933998067
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Button Blue preset-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 0
-        width: 39
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 011dd78eceda52770800000000000000
-      internalID: 8585459497676165392
+      spriteID: 5454399b940d6a440800000000000000
+      internalID: 4946870255777695045
       vertices: []
       indices: 
       edges: []
@@ -212,8 +187,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Button Blue preset-Sheet_0: 6097014349933998067
-      Button Blue preset-Sheet_1: 8585459497676165392
+      expediente_0: 4946870255777695045
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

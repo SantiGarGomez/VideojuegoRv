@@ -1,7 +1,7 @@
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.SceneManagement; // Necesario para cambiar de escena
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -33,6 +33,19 @@ public class GameManager : MonoBehaviour
     [SerializeField] private string nombreEscenaFinalBueno = "FinalBueno";
     [SerializeField] private string nombreEscenaFinalMalo = "FinalMalo";
 
+    [Header("Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip sonidoFondoRetro; // Ruido de fondo/computador retro
+    [SerializeField] private AudioClip sonidoClic;      // Sonido corto al presionar botones
+
+    [Header("UI Mute Button")]
+    [SerializeField] private Image imagenBotonMute;      // Componente Image del botón de Mute
+    [SerializeField] private Sprite spriteAudioOn;       // Icono de audio activado
+    [SerializeField] private Sprite spriteAudioOff;      // Icono de audio silenciado
+    [SerializeField] private TMP_Text textoBotonMute;    // Opcional: si usas texto en lugar de sprite (ej. "AUDIO: ON" / "AUDIO: OFF")
+
+    private bool estaSilenciado = false;
+
     private bool vioCamaras = false;
     private bool vioHuellas = false;
     private bool vioMensajes = false;
@@ -48,16 +61,71 @@ public class GameManager : MonoBehaviour
         textoFinal.SetActive(false);
         imagenEvidencia.gameObject.SetActive(false);
         textoExpediente.SetActive(false);
+
+        // Iniciar el sonido de fondo continuo
+        if (audioSource != null && sonidoFondoRetro != null)
+        {
+            audioSource.clip = sonidoFondoRetro;
+            audioSource.loop = true;
+            audioSource.Play();
+        }
+
+        // Asegurarse de que el audio no empiece silenciado
+        AudioListener.pause = false;
+        ActualizarUIAudio();
+    }
+
+    // Método para alternar el silencio total del juego
+    public void ToggleAudio()
+    {
+        estaSilenciado = !estaSilenciado;
+        AudioListener.pause = estaSilenciado;
+
+        if (!estaSilenciado)
+        {
+            ReproducirClic();
+        }
+
+        ActualizarUIAudio();
+    }
+
+    private void ActualizarUIAudio()
+    {
+        // Si usas sprites para el icono del botón
+        if (imagenBotonMute != null)
+        {
+            if (estaSilenciado && spriteAudioOff != null)
+                imagenBotonMute.sprite = spriteAudioOff;
+            else if (!estaSilenciado && spriteAudioOn != null)
+                imagenBotonMute.sprite = spriteAudioOn;
+        }
+
+        // Si usas texto en el botón
+        if (textoBotonMute != null)
+        {
+            textoBotonMute.text = estaSilenciado ? "AUDIO: OFF" : "AUDIO: ON";
+        }
+    }
+
+    // Método para reproducir el clic en los botones
+    private void ReproducirClic()
+    {
+        if (audioSource != null && sonidoClic != null && !estaSilenciado)
+        {
+            audioSource.PlayOneShot(sonidoClic);
+        }
     }
 
     public void IniciarInvestigacion()
     {
+        ReproducirClic();
         panelInicio.SetActive(false);
         panelPrincipal.SetActive(true);
     }
 
     public void MostrarCamaras()
     {
+        ReproducirClic();
         textoBienvenida.SetActive(false);
         imagenEvidencia.gameObject.SetActive(true);
         OcultarBotones();
@@ -75,6 +143,7 @@ public class GameManager : MonoBehaviour
 
     public void MostrarHuellas()
     {
+        ReproducirClic();
         textoBienvenida.SetActive(false);
         textoInformacion.gameObject.SetActive(true);
         imagenEvidencia.gameObject.SetActive(true);
@@ -92,6 +161,7 @@ public class GameManager : MonoBehaviour
 
     public void MostrarMensajes()
     {
+        ReproducirClic();
         textoBienvenida.SetActive(false);
         textoInformacion.gameObject.SetActive(true);
         imagenEvidencia.gameObject.SetActive(true);
@@ -109,6 +179,7 @@ public class GameManager : MonoBehaviour
 
     public void MostrarBanco()
     {
+        ReproducirClic();
         textoBienvenida.SetActive(false);
         textoInformacion.gameObject.SetActive(true);
         imagenEvidencia.gameObject.SetActive(true);
@@ -126,6 +197,7 @@ public class GameManager : MonoBehaviour
 
     public void MostrarLlamadas()
     {
+        ReproducirClic();
         textoBienvenida.SetActive(false);
         textoInformacion.gameObject.SetActive(true);
         imagenEvidencia.gameObject.SetActive(true);
@@ -143,6 +215,7 @@ public class GameManager : MonoBehaviour
 
     public void Acusar()
     {
+        ReproducirClic();
         if (vioCamaras && vioHuellas && vioMensajes && vioBanco && vioLlamadas)
         {
             OcultarPantallas();
@@ -163,21 +236,21 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    // FINAL BUENO: Acusas a Carlos (el verdadero culpable)
     public void ElegirCarlos()
     {
+        ReproducirClic();
         SceneManager.LoadScene(nombreEscenaFinalBueno);
     }
 
-    // FINAL MALO: Acusas a Laura
     public void ElegirLaura()
     {
+        ReproducirClic();
         SceneManager.LoadScene(nombreEscenaFinalMalo);
     }
 
-    // FINAL MALO: Acusas a Andrés
     public void ElegirAndres()
     {
+        ReproducirClic();
         SceneManager.LoadScene(nombreEscenaFinalMalo);
     }
 
@@ -222,6 +295,7 @@ public class GameManager : MonoBehaviour
 
     public void MostrarExpediente()
     {
+        ReproducirClic();
         OcultarPantallas();
         OcultarBotones();
         textoExpediente.SetActive(true);

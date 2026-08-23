@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: b56dcd448a52092458b35309b0c1fcfc
+guid: 00b7a199888e5464680ad4b838e34d01
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6097014349933998067
-    second: Button Blue preset-Sheet_0
-  - first:
-      213: 8585459497676165392
-    second: Button Blue preset-Sheet_1
+      213: -1041794129738879443
+    second: huella 1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -155,13 +152,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Button Blue preset-Sheet_0
+      name: huella 1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 39
-        height: 15
+        x: 27
+        y: 3
+        width: 191
+        height: 231
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -170,30 +167,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3ff66467f32fc9450800000000000000
-      internalID: 6097014349933998067
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Button Blue preset-Sheet_1
-      rect:
-        serializedVersion: 2
-        x: 40
-        y: 0
-        width: 39
-        height: 15
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 011dd78eceda52770800000000000000
-      internalID: 8585459497676165392
+      spriteID: d2ea3d732cdca81f0800000000000000
+      internalID: -1041794129738879443
       vertices: []
       indices: 
       edges: []
@@ -212,8 +187,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Button Blue preset-Sheet_0: 6097014349933998067
-      Button Blue preset-Sheet_1: 8585459497676165392
+      huella 1_0: -1041794129738879443
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
