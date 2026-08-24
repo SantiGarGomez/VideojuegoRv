@@ -2,6 +2,7 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using System.Collections;
 
 public class GameManager : MonoBehaviour
 {
@@ -38,6 +39,15 @@ public class GameManager : MonoBehaviour
     [SerializeField] private AudioClip sonidoFondoRetro; // Ruido de fondo/computador retro
     [SerializeField] private AudioClip sonidoClic;      // Sonido corto al presionar botones
 
+    [Header("Efecto de escritura")]
+    [SerializeField] private TMP_Text textoInicio;
+    [SerializeField] private GameObject botonIniciarInvestigacion;
+    [SerializeField] private float velocidadEscritura = 0.03f;
+    [SerializeField] private TMP_Text textoBienvenidaTMP;
+    [SerializeField] private float velocidadBienvenida = 0.03f;
+
+    private Coroutine corrutinaEscritura;
+
     [Header("UI Mute Button")]
     [SerializeField] private Image imagenBotonMute;      // Componente Image del botón de Mute
     [SerializeField] private Sprite spriteAudioOn;       // Icono de audio activado
@@ -55,12 +65,21 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         ActualizarProgreso();
-        textoBienvenida.SetActive(true);
+        textoBienvenida.SetActive(false);
         textoInformacion.gameObject.SetActive(false);
         textoAcusar.SetActive(false);
         textoFinal.SetActive(false);
         imagenEvidencia.gameObject.SetActive(false);
         textoExpediente.SetActive(false);
+
+        // Ocultar el botón mientras se escribe el texto
+        botonIniciarInvestigacion.SetActive(false);
+
+        // Iniciar efecto de escritura
+        if (textoInicio != null)
+        {
+            corrutinaEscritura = StartCoroutine(EscribirTextoInicio());
+        }
 
         // Iniciar el sonido de fondo continuo
         if (audioSource != null && sonidoFondoRetro != null)
@@ -73,6 +92,41 @@ public class GameManager : MonoBehaviour
         // Asegurarse de que el audio no empiece silenciado
         AudioListener.pause = false;
         ActualizarUIAudio();
+    }
+
+    IEnumerator EscribirTextoInicio()
+    {
+        textoInicio.ForceMeshUpdate();
+
+        int cantidadCaracteres = textoInicio.textInfo.characterCount;
+
+        textoInicio.maxVisibleCharacters = 0;
+
+        for (int i = 0; i <= cantidadCaracteres; i++)
+        {
+            textoInicio.maxVisibleCharacters = i;
+
+            yield return new WaitForSeconds(velocidadEscritura);
+        }
+
+        // Cuando termina de escribir, aparece el botón
+        botonIniciarInvestigacion.SetActive(true);
+    }
+
+    IEnumerator EscribirTextoBienvenida()
+    {
+        textoBienvenidaTMP.ForceMeshUpdate();
+
+        int cantidadCaracteres = textoBienvenidaTMP.textInfo.characterCount;
+
+        textoBienvenidaTMP.maxVisibleCharacters = 0;
+
+        for (int i = 0; i <= cantidadCaracteres; i++)
+        {
+            textoBienvenidaTMP.maxVisibleCharacters = i;
+
+            yield return new WaitForSeconds(velocidadBienvenida);
+        }
     }
 
     // Método para alternar el silencio total del juego
@@ -121,6 +175,12 @@ public class GameManager : MonoBehaviour
         ReproducirClic();
         panelInicio.SetActive(false);
         panelPrincipal.SetActive(true);
+
+        // Mostrar el texto de bienvenida
+        textoBienvenida.SetActive(true);
+
+        // Iniciar el efecto de escritura
+        StartCoroutine(EscribirTextoBienvenida());
     }
 
     public void MostrarCamaras()

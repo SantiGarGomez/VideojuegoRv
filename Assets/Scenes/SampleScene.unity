@@ -1752,6 +1752,11 @@ MonoBehaviour:
   audioSource: {fileID: 611695947}
   sonidoFondoRetro: {fileID: 8300000, guid: 0248b2c91617e93408f710e2c3091a88, type: 3}
   sonidoClic: {fileID: 8300000, guid: e4285cc5bbc12a04094dcece10598af6, type: 3}
+  textoInicio: {fileID: 1528917444}
+  botonIniciarInvestigacion: {fileID: 159860674}
+  velocidadEscritura: 0.03
+  textoBienvenidaTMP: {fileID: 2098909073}
+  velocidadBienvenida: 0.03
   imagenBotonMute: {fileID: 576402674}
   spriteAudioOn: {fileID: -4741671254806596633, guid: 7567b8a57bf6453489bc16aab45fc18d, type: 3}
   spriteAudioOff: {fileID: 9178825391270070028, guid: 7567b8a57bf6453489bc16aab45fc18d, type: 3}
@@ -4468,7 +4473,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "Conectando con la base de datos central...\nAcceso autorizado.\nCaso cargado
-    correctamente.\n\nCASO #0148 - Robo a la entidad bancaria\n\nTres sospechosos
+    correctamente.\n\nCASO #0147 - Robo a la entidad bancaria\n\nTres sospechosos
     han sido identificados. Sin embargo, las pruebas disponibles a\xFAn no son suficientes
     para emitir una captura.\n\nSu misi\xF3n consiste en analizar cada archivo, relacionar
     las evidencias y determinar qui\xE9n es el responsable del robo.\n\nRecuerde:
