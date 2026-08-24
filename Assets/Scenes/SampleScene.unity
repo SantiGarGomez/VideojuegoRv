@@ -1613,6 +1613,8 @@ MonoBehaviour:
   imagenMensajes: {fileID: 674393614784155209, guid: 3adb6552b1246bc43859fe89a7eb140e, type: 3}
   imagenBanco: {fileID: -902982901966222709, guid: 8aa35d551df41a1459f34e655332077b, type: 3}
   imagenLlamadas: {fileID: -4385959521862550697, guid: 0ef3243de5dc40246ad5695df7155031, type: 3}
+  nombreEscenaFinalBueno: FinalBueno
+  nombreEscenaFinalMalo: FinalMalo
 --- !u!4 &611695946
 Transform:
   m_ObjectHideFlags: 0
