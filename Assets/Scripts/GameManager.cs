@@ -133,7 +133,7 @@ public class GameManager : MonoBehaviour
 
         vioCamaras = true;
         textoInformacion.text =
-            "Archivo abierto:\r\n\r\nCamara_Exterior_01.mp4\r\n\r\n--------------------------------------\r\n\r\nHora: 21:15\r\n\r\nDescripción:\r\n\r\nLa cámara registra a una persona con chaqueta negra entrando al banco.\r\n\r\nEl sospechoso cojea ligeramente de la pierna izquierda.\r\n\r\nEl rostro no puede identificarse.";
+            "Archivo abierto:\r\n\r\nCamara_Exterior_01.mp4\r\n--------------------------------\r\nHora: 21:15\r\n\r\nDescripción:\r\n\r\nLa cámara registra a una persona con chaqueta negra entrando al banco.\r\n\r\nEl sospechoso cojea ligeramente de la pierna izquierda.\r\n\r\nEl rostro no puede identificarse.";
         ActualizarProgreso();
 
         AgregarNota("El sospechoso tenía una leve cojera y vestía una chaqueta negra.");
@@ -152,7 +152,7 @@ public class GameManager : MonoBehaviour
 
         vioHuellas = true;
         textoInformacion.text =
-            "Archivo abierto:\r\n\r\nInforme_Huellas.pdf\r\n\r\n--------------------------------------\r\n\r\nResultado:\r\n\r\nLas huellas encontradas pertenecen a un ex empleado del banco.\r\n\r\nSegún el registro de personal, únicamente Carlos Pérez trabajó anteriormente en la entidad.";
+            "Archivo abierto:\r\n\r\nInforme_Huellas.pdf\r\n--------------------------------\r\nResultado:\r\n\r\nLas huellas encontradas pertenecen a un ex empleado del banco.\r\n\r\nSegún el registro de personal, únicamente Carlos Pérez trabajó anteriormente en la entidad.";
         ActualizarProgreso();
 
         AgregarNota("Las huellas pertenecen a un ex empleado del banco.");
@@ -170,7 +170,7 @@ public class GameManager : MonoBehaviour
 
         vioMensajes = true;
         textoInformacion.text =
-            "Archivo abierto:\r\n\r\nChat_Recuperado.txt\r\n\r\n--------------------------------------\r\n\r\n21:03\r\n\r\n- No olvides llevar la chaqueta negra y la llave.\r\n\r\n21:05\r\n\r\n- Tranquilo, todavía conservo la llave que nunca devolví.\r\n\r\nEl nombre del remitente fue eliminado.";
+            "Archivo abierto:\r\n\r\nChat_Recuperado.txt\r\n--------------------------------\r\n21:03\r\n\r\n- No olvides llevar la chaqueta negra y la llave.\r\n\r\n21:05\r\n\r\n- Tranquilo, todavía conservo la llave que nunca devolví.\r\n\r\nEl nombre del remitente fue eliminado.";
         ActualizarProgreso();
 
         AgregarNota("Uno de los involucrados aún conservaba una llave del banco.");
@@ -188,7 +188,7 @@ public class GameManager : MonoBehaviour
 
         vioBanco = true;
         textoInformacion.text =
-            "Archivo abierto:\r\n\r\nMovimientos_Bancarios.xlsx\r\n\r\n--------------------------------------\r\n\r\nTransferencia:\r\n\r\nDestino:\r\n\r\nAndrés Ruiz\r\n\r\nValor:\r\n\r\n$5.000.000\r\n\r\nObservación:\r\n\r\nPago recibido menos de 24 horas después del robo.";
+            "Archivo abierto:\r\n\r\nMovimientos_Bancarios.xlsx\r\n--------------------------------\r\nTransferencia:\r\n\r\nDestino:\r\n\r\nAndrés Ruiz\r\n\r\nValor:\r\n\r\n$5.000.000\r\n\r\nObservación:\r\n\r\nPago recibido menos de 24 horas después del robo.";
         ActualizarProgreso();
 
         AgregarNota("Andrés recibió dinero después del robo.");
@@ -206,7 +206,7 @@ public class GameManager : MonoBehaviour
 
         vioLlamadas = true;
         textoInformacion.text =
-            "Archivo abierto:\r\n\r\nRegistro_Llamadas.csv\r\n\r\n--------------------------------------\r\n\r\n21:11\r\n\r\nLlamada entre Carlos Pérez y Andrés Ruiz.\r\n\r\nDuración:\r\n\r\n03:12 minutos.\r\n\r\nNo fue posible recuperar el contenido.";
+            "Archivo abierto:\r\n\r\nRegistro_Llamadas.csv\r\n--------------------------------\r\n21:11\r\n\r\nLlamada entre Carlos Pérez y Andrés Ruiz.\r\n\r\nDuración:\r\n\r\n03:12 minutos.\r\n\r\nNo fue posible recuperar el contenido.";
         ActualizarProgreso();
 
         AgregarNota("Carlos habló con Andrés minutos antes del robo.");
